@@ -13,7 +13,7 @@ import CompanySetup from './components/admin/CompanySetup';
 import AdminJobs from './components/admin/AdminJobs';
 import PostJob from './components/admin/PostJob';
 import Applicants from './components/admin/Applicants';
-import ProtectedRoute from './components/admin/ProtectedRoute';
+import ProtectedRoute from './components/admin/protectedRoute';
 import Chatbot from './components/Chatbot'; // Import Chatbot component
 
 const appRouter = createBrowserRouter([
