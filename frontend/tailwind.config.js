@@ -7,12 +7,16 @@
 //   plugins: [],
 // }
 export default {
-	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-	theme: {
-	  extend: {},
-	},
-	plugins: [],
-  };
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ["class"],
