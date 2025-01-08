@@ -14,7 +14,7 @@ const Chatbot = () => {
     setMessages([...messages, userMessage]);
 
     try {
-      const response = await axios.post("http://localhost:8000/api/chatbot", { prompt: input });
+      const response = await axios.post("https://jobportal-project-7.onrender.com/api/chatbot", { prompt: input });
       const botMessage = {
         sender: "bot",
         text: response.data.message,
