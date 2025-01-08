@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 
-const COMPANY_API_END_POINT = "https://jobportal-project-6.onrender.com/api/v1/company";  // Updated to production URL
+ // Updated to production URL
 
 const useGetCompanyById = (companyId) => {
     const dispatch = useDispatch();
