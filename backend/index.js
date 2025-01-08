@@ -24,7 +24,7 @@ app.use(cookieParser());
 
 // CORS options
 const corsOptions = {
-    origin: 'http://localhost:5173', // Frontend URL
+    origin: 'https://jobportal-project-6.onrender.com', // Frontend URL
     credentials: true
 };
 app.use(cors(corsOptions));
