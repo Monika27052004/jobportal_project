@@ -11,7 +11,7 @@ import axios from 'axios'
 import { USER_API_END_POINT } from '@/utils/constant'
 import { setUser } from '@/redux/authSlice'
 
-const USER_API_END_POINT = "https://jobportal-project-6.onrender.com/api/v1/user"; // Updated endpoint for user actions
+ // Updated endpoint for user actions
 const Navbar = () => {
      const { user } = useSelector(store => store.auth);
    const dispatch = useDispatch();
