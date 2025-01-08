@@ -4,10 +4,6 @@ import axios from 'axios'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import { setAllJobs } from '@/redux/jobSlice';
-import axios from 'axios';
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 
 
 
