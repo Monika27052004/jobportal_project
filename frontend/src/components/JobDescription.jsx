@@ -8,6 +8,9 @@ import { setSingleJob } from '@/redux/jobSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'sonner';
 
+const APPLICATION_API_END_POINT = "https://jobportal-project-6.onrender.com/api/v1/application"; // Updated API endpoint
+const JOB_API_END_POINT = "https://jobportal-project-6.onrender.com/api/v1/job"; // Updated API endpoint
+
 const JobDescription = () => {
     const {singleJob} = useSelector(store => store.job);
     const {user} = useSelector(store=>store.auth);
