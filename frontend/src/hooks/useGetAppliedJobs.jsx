@@ -4,6 +4,7 @@ import axios from "axios"
 import { useEffect } from "react"
 import { useDispatch } from "react-redux";
 
+const APPLICATION_API_END_POINT = "https://jobportal-project-6.onrender.com/api/v1/application";  // Updated API endpoint
 const useGetAppliedJobs = () => {
     const dispatch = useDispatch();
 
