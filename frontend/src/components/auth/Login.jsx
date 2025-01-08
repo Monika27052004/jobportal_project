@@ -30,7 +30,7 @@ const Login = () => {
         e.preventDefault();
         try {
             dispatch(setLoading(true));
-            const res = await axios.post("https://jobportal-project-6.onrender.com/api/v1/user/login", input, {
+            const res = await axios.post("https://jobportal-project-7.onrender.com/api/v1/user/login", input, {
                 headers: {
                     "Content-Type": "application/json"
                 },
